@@ -1,0 +1,36 @@
+body{
+  margin:0;
+  text-align: center;
+}
+
+h1, h2{
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 75px;
+}
+
+.topContainer{
+  background-color: slategray;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middleContainer{
+
+}
+
+.bottomContainer{
+
+}
+
+.topCloud{
+  position:absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomCloud{
+  position:absolute;
+  left: 300px;
+  bottom:300px;
+}
