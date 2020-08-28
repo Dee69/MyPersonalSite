@@ -8,31 +8,28 @@ h1 {
   color: #a31621;
   margin-top: 25px;
   font-family: 'Roboto Mono', monospace;
-  font-size: 75px;
+  font-size: 80px;
 }
 
 h2{
   color: #a31621;
   font-family: 'Sacramento', cursive;
-  font-size: 50px;
+  font-size: 600%;
+  font-weight: normal;
 }
 
 h3{
-  color: #edf4ed;
+  color: #D7F9FF;
   font-family: 'Abel', sans-serif;
   font-size: 50px;
 }
 
 p {
-  font-size: 25px;
+  font-size: 30px;
   padding-bottom: 10px;
   line-height: 2;
-}
-
-.intro{
-  width: 50%;
-  margin: auto;
-
+  color: #edf4ed;
+  text-align: justify;
 }
 
 .mainContainer {
@@ -43,13 +40,24 @@ p {
 
 .profileContainer {
   background-color: #5d737e;
-  padding-top: 75px;
-  height: inherit;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 75px;
+  padding-top: 100px;
+  margin: 0;
 }
 
 .deeImg{
-  width: 30%;
-  padding: 80px;
+  width: 40%;
+  padding: 20px;
+  float: left;
+  padding-right: 80px;
+  padding-left: 10px;
+  margin: 0;
+}
+
+.intro{
+  text-align: justify;
 }
 
 .skillsContainer {
@@ -71,14 +79,19 @@ p {
 }
 
 .contactInstr{
-  width: 50%;
+  width: 32%;
   margin: 100px auto 100px auto;
+  text-align: center;
 }
 
 .footerContainer {
   background-color: #2e86ab;
   position: relative;
   padding: 40px;
+}
+
+.copyRightText{
+  text-align: center;
 }
 
 .compImg{
